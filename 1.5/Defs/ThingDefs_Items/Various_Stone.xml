@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="StoneBlocksBase" Name="ReinforcedStoneBlocksBase" Abstract="True">
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <deepCommonality>0</deepCommonality>
+    <allowedArchonexusCount>0</allowedArchonexusCount>
+    <stuffProps>
+      <commonality>0</commonality>
+      <canSuggestUseDefaultStuff>false</canSuggestUseDefaultStuff>
+      <soundImpactBullet>BulletImpact_Ground</soundImpactBullet>
+      <soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+      <soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+      <statOffsets>
+        <WorkToBuild>1400</WorkToBuild>
+      </statOffsets>
+      <statFactors>
+        <MarketValue>4</MarketValue>
+        <MaxHitPoints>18</MaxHitPoints>
+        <WorkToBuild>60</WorkToBuild>
+        <WorkToMake>13</WorkToMake>
+      </statFactors>
+    </stuffProps>
+    <minRewardCount>0</minRewardCount>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <MarketValue>9</MarketValue>
+      <ConstructionSpeedFactor>0.08</ConstructionSpeedFactor>
+    </statBases>
+  </ThingDef>
+  <!-- ================ Sandstone ================ -->
+  <ThingDef ParentName="ReinforcedStoneBlocksBase">
+    <defName>BlocksSandstoneReinforced</defName>
+    <label>Reinforced sandstone blocks</label>
+    <description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</description>
+    <graphicData>
+      <color>(106,84,74)</color>
+    </graphicData>
+    <statBases>
+      <Mass>10</Mass>
+      <SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(126,104,94)</color>
+      <stuffAdjective>reinforced sandstone</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>
+        <MaxHitPoints>14</MaxHitPoints>
+        <WorkToBuild>50</WorkToBuild>
+        <WorkToMake>11</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- ================ Granite ================ -->
+  <ThingDef ParentName="ReinforcedStoneBlocksBase">
+    <defName>BlocksGraniteReinforced</defName>
+    <label>Reinforced granite blocks</label>
+    <description>Blocks of solid granite. Granite is a very hard stone.</description>
+    <graphicData>
+      <color>(85,75,77)</color>
+    </graphicData>
+    <statBases>
+      <Mass>12.5</Mass>
+      <SharpDamageMultiplier>0.65</SharpDamageMultiplier>
+    </statBases>
+    <stuffProps>
+      <color>(105,95,97)</color>
+      <stuffAdjective>reinforced granite</stuffAdjective>
+      <statFactors>
+        <MaxHitPoints>17</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- ================ Limestone ================ -->
+  <ThingDef ParentName="ReinforcedStoneBlocksBase">
+    <defName>BlocksLimestoneReinforced</defName>
+    <label>Reinforced limestone blocks</label>
+    <description>Blocks of solid limestone.</description>
+    <graphicData>
+      <color>(138,133,115)</color>
+    </graphicData>
+    <statBases>
+      <Mass>11</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(158,153,135)</color>
+      <stuffAdjective>reinforced limestone</stuffAdjective>
+      <statFactors>
+        <MaxHitPoints>15.5</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- ================ Slate ================ -->
+  <ThingDef ParentName="ReinforcedStoneBlocksBase">
+    <defName>BlocksSlateReinforced</defName>
+    <label>Reinforced slate blocks</label>
+    <description>Blocks of solid slate. A dull-looking rock that chips easily.</description>
+    <graphicData>
+      <color>(50,50,50)</color>
+    </graphicData>
+    <statBases>
+      <Mass>9</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(70,70,70)</color>
+      <stuffAdjective>reinforced slate</stuffAdjective>
+      <statFactors>
+        <Beauty>1.1</Beauty>
+        <MaxHitPoints>13</MaxHitPoints>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+  <!-- ================ Marble ================ -->
+  <ThingDef ParentName="ReinforcedStoneBlocksBase">
+    <defName>BlocksMarbleReinforced</defName>
+    <label>Reinforced marble blocks</label>
+    <description>Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt.</description>
+    <graphicData>
+      <color>(112,115,112)</color>
+    </graphicData>
+    <statBases>
+      <Mass>12.5</Mass>
+    </statBases>
+    <stuffProps>
+      <color>(132,135,132)</color>
+      <stuffAdjective>reinforced marble</stuffAdjective>
+      <statFactors>
+        <Beauty>1.35</Beauty>
+        <MaxHitPoints>12</MaxHitPoints>
+        <WorkToBuild>55</WorkToBuild>
+        <WorkToMake>11.5</WorkToMake>
+      </statFactors>
+    </stuffProps>
+  </ThingDef>
+</Defs>

@@ -40,7 +40,7 @@ public class Building_MolecularReinforcementCompressor : Building
             return;
         }
 
-        validThingStack.SplitOff(10);
+        validThingStack.SplitOff(STUFF_AMMOUNT_REQUIRED);
         var thing = ThingMaker.MakeThing(reinforcedVersion);
         GenPlace.TryPlaceThing(thing, InteractionCell, Map, ThingPlaceMode.Near);
     }
@@ -58,7 +58,7 @@ public class Building_MolecularReinforcementCompressor : Building
 
         foreach (var item2 in list2)
         {
-            if (item2.stackCount < 10)
+            if (item2.stackCount < STUFF_AMMOUNT_REQUIRED)
             {
                 continue;
             }
@@ -130,11 +130,6 @@ public class Building_MolecularReinforcementCompressor : Building
             return ThingDef.Named("BlocksSlateReinforced");
         }
 
-        if (sourceStuff.def == ThingDef.Named("BlocksMarble"))
-        {
-            return ThingDef.Named("BlocksMarbleReinforced");
-        }
-
-        return null;
+        return sourceStuff.def == ThingDef.Named("BlocksMarble") ? ThingDef.Named("BlocksMarbleReinforced") : null;
     }
 }
