@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Reinforced granite blocks -->
+  <BlocksGraniteReinforced.label>Reinforced granite blocks</BlocksGraniteReinforced.label>
+  <!-- EN: Blocks of solid granite. Granite is a very hard stone. -->
+  <BlocksGraniteReinforced.description>Blocks of solid granite. Granite is a very hard stone.</BlocksGraniteReinforced.description>
+  <!-- EN: reinforced granite -->
+  <BlocksGraniteReinforced.stuffProps.stuffAdjective>reinforced granite</BlocksGraniteReinforced.stuffProps.stuffAdjective>
+  <!-- EN: Reinforced limestone blocks -->
+  <BlocksLimestoneReinforced.label>Reinforced limestone blocks</BlocksLimestoneReinforced.label>
+  <!-- EN: Blocks of solid limestone. -->
+  <BlocksLimestoneReinforced.description>Blocks of solid limestone.</BlocksLimestoneReinforced.description>
+  <!-- EN: reinforced limestone -->
+  <BlocksLimestoneReinforced.stuffProps.stuffAdjective>reinforced limestone</BlocksLimestoneReinforced.stuffProps.stuffAdjective>
+  <!-- EN: Reinforced marble blocks -->
+  <BlocksMarbleReinforced.label>Reinforced marble blocks</BlocksMarbleReinforced.label>
+  <!-- EN: Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt. -->
+  <BlocksMarbleReinforced.description>Blocks of solid marble. Marble is a soft, beautiful stone, known for being easy to sculpt.</BlocksMarbleReinforced.description>
+  <!-- EN: reinforced marble -->
+  <BlocksMarbleReinforced.stuffProps.stuffAdjective>reinforced marble</BlocksMarbleReinforced.stuffProps.stuffAdjective>
+  <!-- EN: Reinforced sandstone blocks -->
+  <BlocksSandstoneReinforced.label>Reinforced sandstone blocks</BlocksSandstoneReinforced.label>
+  <!-- EN: Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily. -->
+  <BlocksSandstoneReinforced.description>Blocks of solid sandstone. Sandstone is a relatively soft rock and chips easily.</BlocksSandstoneReinforced.description>
+  <!-- EN: reinforced sandstone -->
+  <BlocksSandstoneReinforced.stuffProps.stuffAdjective>reinforced sandstone</BlocksSandstoneReinforced.stuffProps.stuffAdjective>
+  <!-- EN: Reinforced slate blocks -->
+  <BlocksSlateReinforced.label>Reinforced slate blocks</BlocksSlateReinforced.label>
+  <!-- EN: Blocks of solid slate. A dull-looking rock that chips easily. -->
+  <BlocksSlateReinforced.description>Blocks of solid slate. A dull-looking rock that chips easily.</BlocksSlateReinforced.description>
+  <!-- EN: reinforced slate -->
+  <BlocksSlateReinforced.stuffProps.stuffAdjective>reinforced slate</BlocksSlateReinforced.stuffProps.stuffAdjective>
+</LanguageData>

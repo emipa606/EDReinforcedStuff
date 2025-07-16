@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Molecular Reinforcement Compressor -->
+  <MolecularReinforcementCompressor.label>Molecular Reinforcement Compressor</MolecularReinforcementCompressor.label>
+  <!-- EN: Produces Reinforced Stuff from any adjacent storage. -->
+  <MolecularReinforcementCompressor.description>Produces Reinforced Stuff from any adjacent storage.</MolecularReinforcementCompressor.description>
+</LanguageData>

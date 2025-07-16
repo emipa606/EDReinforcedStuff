@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Reinforced gold -->
+  <GoldReinforced.label>Reinforced gold</GoldReinforced.label>
+  <!-- EN: The most seductive metal of them all. Millions have died in attempting to feed the endless human thirst for gold. This soft metal is little use on its own, but is strikingly beautiful and very rare. -->
+  <GoldReinforced.description>The most seductive metal of them all. Millions have died in attempting to feed the endless human thirst for gold. This soft metal is little use on its own, but is strikingly beautiful and very rare.</GoldReinforced.description>
+  <!-- EN: golden -->
+  <GoldReinforced.stuffProps.stuffAdjective>golden</GoldReinforced.stuffProps.stuffAdjective>
+  <!-- EN: Reinforced jade -->
+  <JadeReinforced.label>Reinforced jade</JadeReinforced.label>
+  <!-- EN: A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. It's hardness and density also makes it a good material for blunt weapons. -->
+  <JadeReinforced.description>A hard, green stone. Because of its beauty and rarity, jade is often used for ornaments and decorations. It's hardness and density also makes it a good material for blunt weapons.</JadeReinforced.description>
+  <!-- EN: Reinforced plasteel -->
+  <PlasteelReinforced.label>Reinforced plasteel</PlasteelReinforced.label>
+  <!-- EN: Advanced spacer tech structural material. Plasteel is extremely strong due to its unique molecular structure. -->
+  <PlasteelReinforced.description>Advanced spacer tech structural material. Plasteel is extremely strong due to its unique molecular structure.</PlasteelReinforced.description>
+  <!-- EN: Reinforced silver -->
+  <SilverReinforced.label>Reinforced silver</SilverReinforced.label>
+  <!-- EN: This metal is mostly used as a commodity currency. It can also be used for making attractive decorations. -->
+  <SilverReinforced.description>This metal is mostly used as a commodity currency. It can also be used for making attractive decorations.</SilverReinforced.description>
+  <!-- EN: Reinforced steel -->
+  <SteelReinforced.label>Reinforced steel</SteelReinforced.label>
+  <!-- EN: An iron-carbon metal alloy used for building structures, tools, and weapons. -->
+  <SteelReinforced.description>An iron-carbon metal alloy used for building structures, tools, and weapons.</SteelReinforced.description>
+  <!-- EN: Reinforced uranium -->
+  <UraniumReinforced.label>Reinforced uranium</UraniumReinforced.label>
+  <!-- EN: An extremely hard, dense metal. While it is best known for its use powering nuclear reactors, its physical properties also make it excellent in some roles as a tool, weapon, or armor. -->
+  <UraniumReinforced.description>An extremely hard, dense metal. While it is best known for its use powering nuclear reactors, its physical properties also make it excellent in some roles as a tool, weapon, or armor.</UraniumReinforced.description>
+  <!-- EN: Reinforced wood -->
+  <WoodLogReinforced.label>Reinforced wood</WoodLogReinforced.label>
+  <!-- EN: Wood from trees or other fibrous plants. Useful for building structures, weapons, and even simple prosthetics. -->
+  <WoodLogReinforced.description>Wood from trees or other fibrous plants. Useful for building structures, weapons, and even simple prosthetics.</WoodLogReinforced.description>
+  <!-- EN: wooden -->
+  <WoodLogReinforced.stuffProps.stuffAdjective>wooden</WoodLogReinforced.stuffProps.stuffAdjective>
+</LanguageData>

@@ -7,20 +7,20 @@ namespace EnhancedDevelopment.ReinforcedStuff;
 
 public class Building_MolecularReinforcementCompressor : Building
 {
-    private const int STUFF_AMMOUNT_REQUIRED = 10;
+    private const int StuffAmountRequired = 10;
 
-    private CompPowerTrader m_Power;
+    private CompPowerTrader mPower;
 
     public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
         base.SpawnSetup(map, respawningAfterLoad);
-        m_Power = GetComp<CompPowerTrader>();
+        mPower = GetComp<CompPowerTrader>();
     }
 
     public override void TickRare()
     {
         base.TickRare();
-        if (m_Power.PowerOn)
+        if (mPower.PowerOn)
         {
             TrySpawnReinforcedStuff();
         }
@@ -28,24 +28,24 @@ public class Building_MolecularReinforcementCompressor : Building
 
     private void TrySpawnReinforcedStuff()
     {
-        var validThingStack = GetValidThingStack();
+        var validThingStack = getValidThingStack();
         if (validThingStack == null)
         {
             return;
         }
 
-        var reinforcedVersion = GetReinforcedVersion(validThingStack);
+        var reinforcedVersion = getReinforcedVersion(validThingStack);
         if (reinforcedVersion == null)
         {
             return;
         }
 
-        validThingStack.SplitOff(STUFF_AMMOUNT_REQUIRED);
+        validThingStack.SplitOff(StuffAmountRequired);
         var thing = ThingMaker.MakeThing(reinforcedVersion);
         GenPlace.TryPlaceThing(thing, InteractionCell, Map, ThingPlaceMode.Near);
     }
 
-    private Thing GetValidThingStack()
+    private Thing getValidThingStack()
     {
         var list = (from c in GenAdj.CellsAdjacent8Way(this)
             where c.InBounds(Map)
@@ -58,12 +58,12 @@ public class Building_MolecularReinforcementCompressor : Building
 
         foreach (var item2 in list2)
         {
-            if (item2.stackCount < STUFF_AMMOUNT_REQUIRED)
+            if (item2.stackCount < StuffAmountRequired)
             {
                 continue;
             }
 
-            var reinforcedVersion = GetReinforcedVersion(item2);
+            var reinforcedVersion = getReinforcedVersion(item2);
             if (reinforcedVersion != null)
             {
                 return item2;
@@ -73,7 +73,7 @@ public class Building_MolecularReinforcementCompressor : Building
         return null;
     }
 
-    private ThingDef GetReinforcedVersion(Thing sourceStuff)
+    private static ThingDef getReinforcedVersion(Thing sourceStuff)
     {
         if (sourceStuff.def == ThingDefOf.Silver)
         {
