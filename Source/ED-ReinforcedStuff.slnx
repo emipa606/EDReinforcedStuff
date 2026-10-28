@@ -6,4 +6,14 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="ED-ReinforcedStuff/ED-ReinforcedStuff.csproj" />
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/Items_Resource_Stuff.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/Various_Stone.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Buildings/">
+    <File Path="../1.7/Defs/ThingDefs_Buildings/Buildings_MRC.xml" />
+  </Folder>
 </Solution>
